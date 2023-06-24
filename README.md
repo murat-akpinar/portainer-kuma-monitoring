@@ -46,7 +46,7 @@ cd postgres-pgadmin-docker
 docker-compose up -d
 ```
 
-Kurulumu kontrol etmek için;
+Kurulumu kontrol etmek için ilk önce konteyner isimlerini "docker ps" veya .yml dosyası olduğu dizine girerek "docker-compose ps" kullanabiliriz.;
 
 ```bash
 $ docker-compose ps
@@ -56,7 +56,8 @@ PostgreSQL   docker-entrypoint.sh postgres   Up      0.0.0.0:5432->5432/tcp,:::5
 pgAdmin4     /entrypoint.sh                  Up      443/tcp, 0.0.0.0:5050->5050/tcp,:::5050->5050/tcp, 80/tcp
 ```
 
-State bölümünde Up olduğunu görüyoruz fakat Uptime Kuma bu iki servisi izlememiz için bu container ID bilgileri lazım onu öğrenmek için “docker inspect” kullanacağız.
+Burada konteynerların isimlerini, durumlarını(State) ve Portlarını gördük fakat bize bu container ID'leri lazım bunun için “docker inspect” kullanacağız.
+
 
 ```bash
 $ docker inspect --format="{{.Id}}" PostgreSQL
