@@ -18,9 +18,9 @@ docker-compose up -d
 
 ## Adresler :
 
-          **Portainer**  : https://192.168.1.122:9443
+          Portainer  : https://192.168.1.122:9443
 
-          **Uptime Kuma** : http://192.168.1.122:3001
+          Uptime Kuma : http://192.168.1.122:3001
 
 isterseniz .yml dosyasından bu portları değiştirebilirsiniz.
 
