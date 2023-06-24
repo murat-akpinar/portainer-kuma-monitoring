@@ -2,6 +2,7 @@
 # Portainer ve Uptime Kuma ile Docker Monitoring
 
 Docker kullanarak Portainer ve Uptime Kuma birleştirip sistemimizi izleyip aynı zamanda Portainer sağladığı imkanlar ile sistemimizde ki konteyner(container) yönetme, Uptime Kuma ile izleme imkanımız olacak.
+Bunun için sisteminizde docker ve docker-compose yüklü olmalı.
 Sanal Makinemin ip adresi :“192.168.1.122”
 
 Docker üstüne **Portainer** ve **Uptime Kuma** kullanarak sistem izleme “monitoring” kolayca nasıl yapabileceğimizi anlatmaya çalışacağım.
