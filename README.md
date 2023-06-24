@@ -92,3 +92,8 @@ Aynı işlemi pgAdmin4 içinde yapıp onu da ekliyorum.
 Bu sistemi **Portainer** ile birleştirip sistemi izlerken aynı zamanda sahip olduğunuz docker container da sıkıntı çıktığında buradan da müdahale edebilirsiniz. **Portainer** web ara yüzünde istediğiniz bir konteyner’a girip yeniden başlatma, durdurma veya düzenleme imkanınızda oluyor.
 
 ![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/portainer.png)
+
+
+
+<br>
+Yazım hataları ve devrik cümleler için özür dilerim..
