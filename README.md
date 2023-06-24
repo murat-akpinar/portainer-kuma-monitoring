@@ -28,13 +28,13 @@ Bu iki adrese girdiğinizde ilk önce sizden bir kullanıcı oluşturmanızı is
 
 Sağ üstteki menüden “Settings” bölümüne girdiğinizde. Bu menüden Docker Host kısmına bölümüne geldiğinizde.
 
-![Untitled](Portainer%20ve%20Uptime%20Kuma%20ile%20monitoring%20796e6499b441426a90442c706733581e/Untitled.png)
+![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/kuma4.png)
 
 Setup Docker Host Bölüm tıklayın ve karşınıza “Setup Doker Host” penceresi açılacak. Burada seçtiğiniz bir isim verin ve diğer ayarlara dokunmadan “Test” buttonuna tıklayın. Eğer hiç bir sorun yoksa sağ altta “Connected Successfully.”  mesajı çıkacak eğer bu mesaj gördüyseniz Korkmayın oldu.
 
 Bu ayar sistemde ki docker konteyner izlemek için eğer mevcut sisteminizde konteyner teknolojisi kullanmıyorsanız bu adımı atlayabilirsiniz veya sonraya bırakabilirsiniz.
 
-![Untitled](Portainer%20ve%20Uptime%20Kuma%20ile%20monitoring%20796e6499b441426a90442c706733581e/Untitled%201.png)
+![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/kuma1.png)
 
 **Uptime Kuma** bir çok farklı metot sunuyor bu “Monitor Type” sizin için uygun olanı seçip ip veya domain isimleri ile izleme yapabilirsiniz.
 
@@ -82,14 +82,14 @@ Burada ilk önce docker-compose ps veya docker ps kullanarak containerların isi
 
 **Heartbeat Interval (Check every 30 seconds)** : Bu bölümlerde ki süreler tamamen size kalmış ben “30” yazacağım ve save buttonuna basıyoruz.
 
-![Untitled](Portainer%20ve%20Uptime%20Kuma%20ile%20monitoring%20796e6499b441426a90442c706733581e/Untitled%202.png)
+![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/kuma2.png)
 
 Aynı işlemi pgAdmin4 içinde yapıp onu da ekliyorum.
 
-![Untitled](Portainer%20ve%20Uptime%20Kuma%20ile%20monitoring%20796e6499b441426a90442c706733581e/Untitled%203.png)
+![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/kuma3.png)
 
 **Uptime kuma**nın ekstra bir çok özelliği daha var en önemlisi ise size telegram, whatsapp ve discord gibi uygulamalar üstünden sisteminizde bir terslik olduğunda size bildirim gönderebiliyor. Tabi bununu için ayarlamalar yapmanız gerekiyor. 
 
 Bu sistemi **Portainer** ile birleştirip sistemi izlerken aynı zamanda sahip olduğunuz docker container da sıkıntı çıktığında buradan da müdahale edebilirsiniz. **Portainer** web ara yüzünde istediğiniz bir konteyner’a girip yeniden başlatma, durdurma veya düzenleme imkanınızda oluyor.
 
-![Untitled](Portainer%20ve%20Uptime%20Kuma%20ile%20monitoring%20796e6499b441426a90442c706733581e/Untitled%204.png)
+![Untitled](https://github.com/magwyen/portainer-kuma-monitoring/blob/main/img/portainer.png)
